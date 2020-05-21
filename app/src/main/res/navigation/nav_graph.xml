@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.utm.cov19stats.fragments.MenuFragment"
+        android:label="menu_fragment"
+        tools:layout="@layout/menu_fragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_customizeFragment"
+            app:destination="@id/customizeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customizeFragment"
+        android:name="com.utm.cov19stats.fragments.CustomizeFragment"
+        android:label="customize_fragment"
+        tools:layout="@layout/customize_fragment" >
+        <action
+            android:id="@+id/action_customizeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

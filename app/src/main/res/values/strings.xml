@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cov19Stats</string>
+    <string name="title_activity_search_config">SearchConfig</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Layout Strings -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close_icon">Close icon</string>
+    <string name="coronovirus_image">Coronovirus image</string>
+    <string name="get_customized_view">Get Customized View</string>
+    <string name="view_world_total_stats">View World Total Stats</string>
+    <string name="covid19_stats_main_title">Covid19 Stats</string>
+    <string name="customize_page_info">Customize page info</string>
+    <string name="customize_title_info">Select your options and hit GO</string>
+    <string name="select_country_spinner_title">Select country:</string>
+    <string name="select_case_spinner_title">Select case:</string>
+    <string name="go_button_text">GO</string>
+</resources>
